@@ -7,7 +7,6 @@ class student{
     {
         age =22;
     }
-
     student(int r , String n , int c)  //parameterized constructor
     {
         this.roll_no=r;
@@ -19,12 +18,8 @@ class student{
         this.roll_no=s2.roll_no;
         this.name=s2.name;
         this.age=s2.age;
-
     } 
-    
 }
-
-
 public class day1 {
 
     public static void main(String[] args) {
